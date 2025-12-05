@@ -183,7 +183,7 @@ st.set_page_config(page_title="Shipstream - Shipment Info", layout="wide")
 st.title("📦 Shipstream - Consulta de Shipment por unique_id")
 st.caption("Muestra Envío, Orden y Comercio en limpio, y después el JSON completo.")
 
-unique_id = st.text_input("unique_id", value="5900008555")
+unique_id = st.text_input("unique_id")
 go = st.button("Consultar")
 
 if go:
