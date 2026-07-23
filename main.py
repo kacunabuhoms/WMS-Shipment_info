@@ -6,7 +6,7 @@ from typing import Any, Dict, List, Union, Optional
 # =========================
 # Config
 # =========================
-API_BASE = "https://app.buhologistics.com/api/global/2020-10/shipments/"
+API_BASE = "https://app.buhologistics.com/api/global/v1/shipments/"
 API_VERSION = "2020-10"
 
 # Fallback local (idealmente NO lo dejes en repo público)
